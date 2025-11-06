@@ -7,4 +7,4 @@ This refers us to the definition of non-stationarity of a series if this non-sta
 The main idea for constructing the algorithm is to treat the elements of the series corresponding to one mode as a sample from a unimodal distribution. 
 The two-level classifier takes into account the temporal nature of the series, i.e. the ordering of its elements in contrast to the sample. 
 The algorithm operates under the assumption that the distribution of data in each resulting class is close to normal. The article proposes testing the algorithm on synthetic and real data.
-Real data for algo testing are available at https://disk.yandex.ru/d/l8gtSvtEX7F71Q
+
