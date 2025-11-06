@@ -1,0 +1,10 @@
+Code is performed for paper Petrakova V., Karepova E. Algorithm for segmentation of multimodally distributed time series in accordance with their modes proposed in publish to Journal of Computational Science, 2025.
+The paper proposes an algorithm for dividing a time series with a multimodal distribution into long continuous segments corresponding to one of the modes of its distribution. 
+We call such division of the series the Segmentation. The algorithm is a two-level classifier of time series elements: an element belongs to a segment, and a segment is assigned to a certain class. 
+Each class is associated with a peak in the original histogram constructed for all elements of the series. 
+We associate each histogram peak with a certain set of stable external conditions (operating modes) that affect the behavior of the observed variable. 
+This refers us to the definition of non-stationarity of a series if this non-stationarity can be represented as a mixture of some distributions. 
+The main idea for constructing the algorithm is to treat the elements of the series corresponding to one mode as a sample from a unimodal distribution. 
+The two-level classifier takes into account the temporal nature of the series, i.e. the ordering of its elements in contrast to the sample. 
+The algorithm operates under the assumption that the distribution of data in each resulting class is close to normal. The article proposes testing the algorithm on synthetic and real data.
+Real data for algo testing are available at https://disk.yandex.ru/d/l8gtSvtEX7F71Q
